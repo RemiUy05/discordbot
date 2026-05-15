@@ -124,6 +124,7 @@ QUESTIONS = [
     {"type": "open",  "text": "What moment made you first realise you were falling in love?"},
     {"type": "open",  "text": "What is something your partner does that still surprises you in the best way?"},
     {"type": "open",  "text": "If you could give your relationship a movie title, what would it be and why? 🎬"},
+    
     {"type": "open",  "text": "What is the nicest compliment your partner has ever given you?"},
     {"type": "open",  "text": "How do you each show love differently, and how has that shaped your relationship?"},
     {"type": "open",  "text": "What tradition — big or tiny — have you created that is just yours? 🕯️"},
@@ -149,6 +150,159 @@ QUESTIONS = [
     {"type": "poll",  "text": "Who is more likely to plan a surprise?",                           "options": ["Me! 🙋", "My partner 🙋"]},
     {"type": "poll",  "text": "Your love language is mostly…",                                    "options": ["Words & quality time 💬", "Acts of service & touch 🤝"]},
     {"type": "poll",  "text": "Movie night pick:",                                                "options": ["Romantic comedy 🍿❤️", "Thriller / action 🔫🎬"]},
+    {"type": "open",  "text": "What is the first thing you noticed about your partner when you met? 👀"},
+    {"type": "open",  "text": "What does a perfect morning together look like for you? ☀️"},
+    {"type": "open",  "text": "What is one thing your partner does that you secretly find adorable? 🥹"},
+    {"type": "open",  "text": "If you could only keep one photo of the two of you, which moment would it capture?"},
+    {"type": "open",  "text": "What is the kindest thing a stranger has ever witnessed you do for each other?"},
+    {"type": "open",  "text": "What is something you do together that recharges you both? 🔋"},
+    {"type": "open",  "text": "What is a fear you have overcome because of your partner's support? 💪"},
+    {"type": "open",  "text": "What is a place that feels special to your relationship and why?"},
+    {"type": "open",  "text": "What is the funniest thing that has ever happened to you two on a date? 😂"},
+    {"type": "open",  "text": "If you could send your partner a message they would find at a random moment in the future, what would it say? 💌"},
+    {"type": "open",  "text": "What is something you have taught each other without even trying?"},
+    {"type": "open",  "text": "What holiday or celebration means the most to you as a couple and why? 🎉"},
+    {"type": "open",  "text": "What is a small ritual you have that makes an ordinary day feel special?"},
+    {"type": "open",  "text": "If you could describe your relationship as a type of weather, what would it be and why? 🌤️"},
+    {"type": "open",  "text": "What is something your partner said that you will never forget?"},
+    {"type": "open",  "text": "What is the best piece of relationship advice you have ever received?"},
+    {"type": "open",  "text": "What is a skill or talent your partner has that you deeply admire? ✨"},
+    {"type": "open",  "text": "What was the moment you knew you could fully trust your partner?"},
+    {"type": "open",  "text": "How has your partner changed your life for the better?"},
+    {"type": "open",  "text": "What is something you used to do alone that is now better because you do it together?"},
+    {"type": "open",  "text": "What is the most thoughtful gift your partner has ever given you? 🎁"},
+    {"type": "open",  "text": "If your relationship were a colour, what would it be and why? 🎨"},
+    {"type": "open",  "text": "What is something about your future together that genuinely excites you? 🌟"},
+    {"type": "open",  "text": "What is a moment where your partner made you feel truly seen and understood?"},
+    {"type": "open",  "text": "What is the most spontaneous thing you have ever done together? 🎲"},
+    {"type": "open",  "text": "What is a movie, book, or show that feels like it was made for your relationship? 🎬"},
+    {"type": "open",  "text": "If you could go back and relive your first meeting, what would you do differently?"},
+    {"type": "open",  "text": "What is something your partner worries about that you wish you could take away?"},
+    {"type": "open",  "text": "What is a goal your partner has that you are their biggest cheerleader for? 📣"},
+    {"type": "open",  "text": "What is the most romantic place you have ever been together? 🌹"},
+    {"type": "open",  "text": "What does home feel like to you, and does your partner fit into that feeling?"},
+    {"type": "open",  "text": "What is something you both disagree on but have learned to respect? 🤝"},
+    {"type": "open",  "text": "What is a personality trait of your partner that took you time to fully appreciate?"},
+    {"type": "open",  "text": "If you could plan the perfect week away together, where would you go and what would you do? ✈️"},
+    {"type": "open",  "text": "What is a challenge you have faced together that made you stronger as a couple? 💪"},
+    {"type": "open",  "text": "What is something that always makes your partner laugh without fail?"},
+    {"type": "open",  "text": "What is a compliment you give your partner in your head but should say out loud more often?"},
+    {"type": "open",  "text": "What is the most fun you have ever had spending very little money together? 💸"},
+    {"type": "open",  "text": "What is a dream you both share that you have never told anyone else?"},
+    {"type": "open",  "text": "What does your partner do when they think no one is watching that you absolutely love?"},
+    {"type": "open",  "text": "What is something new you learned about your partner in the last few months?"},
+    {"type": "open",  "text": "If you could name a star after a moment in your relationship, which moment would it be? ⭐"},
+    {"type": "open",  "text": "What is a song that takes you straight back to a specific memory with your partner? 🎵"},
+    {"type": "open",  "text": "What is something your partner does when you are sad that helps more than anything else?"},
+    {"type": "open",  "text": "If your relationship had a mascot, what would it be and why? 🐾"},
+    {"type": "open",  "text": "What is a way your partner shows love that does not involve words?"},
+    {"type": "open",  "text": "What is the best decision you ever made as a couple?"},
+    {"type": "open",  "text": "What is something you are looking forward to experiencing together for the first time? 🎟️"},
+    {"type": "open",  "text": "What is something small your partner does every day that you would miss the most?"},
+    {"type": "open",  "text": "If you wrote your partner a thank you note today, what would be the main thing you thanked them for?"},
+    {"type": "open",  "text": "What is a habit of your partner that you have picked up without realising?"},
+    {"type": "open",  "text": "What is the most beautiful thing about the way your partner loves you?"},
+    {"type": "open",  "text": "What is a place on your shared bucket list that you keep saying you will visit one day? 🗺️"},
+    {"type": "open",  "text": "What is the longest you have gone without seeing each other, and how did it feel?"},
+    {"type": "open",  "text": "What food or drink do you now associate with your relationship? ☕"},
+    {"type": "open",  "text": "What is a version of yourself that your partner helped bring out?"},
+    {"type": "open",  "text": "What is the most creative date you have ever planned or been taken on?"},
+    {"type": "open",  "text": "If your partner gave a speech about you, what do you hope they would say?"},
+    {"type": "open",  "text": "What is a value you both share that you think is the foundation of your relationship?"},
+    {"type": "open",  "text": "What is something your partner is really good at that you brag about to others?"},
+    {"type": "open",  "text": "What does a quiet evening in with your partner look like at its very best? 🕯️"},
+    {"type": "open",  "text": "What is a time your partner surprised you in a way you did not expect at all?"},
+    {"type": "open",  "text": "If your relationship had a tagline like a movie poster, what would it say?"},
+    {"type": "open",  "text": "What is the most meaningful conversation you have ever had together?"},
+    {"type": "open",  "text": "What is something about your partner that you fall in love with over and over again?"},
+    {"type": "open",  "text": "What is the silliest nickname you have for each other and how did it start?"},
+    {"type": "open",  "text": "If you could freeze one ordinary moment from this past year, which would it be?"},
+    {"type": "open",  "text": "What has being in this relationship shown you about what love actually means?"},
+    {"type": "open",  "text": "What is something you want to make sure you never take for granted about your partner?"},
+    {"type": "open",  "text": "What is the most unexpected thing you have in common? 🤔"},
+    {"type": "open",  "text": "What is a dream you had before this relationship that has changed because of it?"},
+    {"type": "open",  "text": "What is something about your partner that makes you feel safe? 🫂"},
+    {"type": "open",  "text": "What is the most beautiful place you have ever watched a sunset or sunrise together? 🌅"},
+    {"type": "open",  "text": "What is a personality trait of yours that your partner has always embraced without question?"},
+    {"type": "open",  "text": "What is the most fun you have had doing something completely ordinary together?"},
+    {"type": "open",  "text": "What is something you would love to learn together as a couple? 📚"},
+    {"type": "open",  "text": "What is a moment from early in your relationship that still makes you smile?"},
+    {"type": "open",  "text": "What is one way your relationship is different from anything you imagined love would be?"},
+    {"type": "open",  "text": "What is something your partner has forgiven you for that meant the world to you?"},
+    {"type": "open",  "text": "What is an adventure you want to go on before the end of this year? 🏕️"},
+    {"type": "open",  "text": "What is something you love doing for your partner just because it makes them happy?"},
+    {"type": "open",  "text": "What is the most romantic gesture you have ever seen in real life — from each other or anyone else? 💕"},
+    {"type": "open",  "text": "If you could redesign your first date knowing what you know now, what would you change?"},
+    {"type": "open",  "text": "What is a hidden talent of your partner that not many people know about?"},
+    {"type": "open",  "text": "What is something that used to seem important in a relationship that no longer matters to you?"},
+    {"type": "open",  "text": "What is a time your partner showed up for you in a way you really needed?"},
+    {"type": "open",  "text": "If you had to describe your love story in three emojis, which would you pick and why?"},
+    {"type": "open",  "text": "What is something about your relationship that you think other people admire?"},
+    {"type": "open",  "text": "What is a way you have grown individually because of this relationship?"},
+    {"type": "open",  "text": "What is a time you laughed so hard together that you could not stop? 😂"},
+    {"type": "open",  "text": "What is something your partner does to take care of themselves that you find really attractive?"},
+    {"type": "open",  "text": "What is a small luxury you love sharing together? ✨"},
+    {"type": "open",  "text": "What is a lesson your relationship has taught you about communication?"},
+    {"type": "open",  "text": "What is a tradition from your own family that you want to carry into your life together?"},
+    {"type": "open",  "text": "What is a way your partner challenges you to be better without even trying?"},
+    {"type": "open",  "text": "What is something you are both terrible at but do together anyway? 😅"},
+    {"type": "open",  "text": "What is a piece of music that means something special to your relationship? 🎶"},
+    {"type": "open",  "text": "What is the most generous thing your partner has ever done for someone else?"},
+    {"type": "open",  "text": "What is something your partner does in the morning that you love? ☀️"},
+    {"type": "open",  "text": "What is a way you knew this relationship was different from others you had before?"},
+    {"type": "open",  "text": "What is something your partner has introduced you to that you now love? 🍜"},
+    {"type": "open",  "text": "What is the most meaningful place you have visited together? 📍"},
+    {"type": "open",  "text": "What is a future milestone you are most excited to reach together? 🏠"},
+    {"type": "open",  "text": "What is something you never have to explain to your partner because they just get it?"},
+    {"type": "poll",  "text": "Who takes longer to get ready?",                                   "options": ["Me 🪞", "My partner 🪞"]},
+    {"type": "poll",  "text": "Who is the better cook?",                                          "options": ["Me 👨‍🍳", "My partner 👨‍🍳"]},
+    {"type": "poll",  "text": "Who said 'I love you' first?",                                     "options": ["I did 💬", "My partner did 💬"]},
+    {"type": "poll",  "text": "Who is more likely to cry at a sad movie?",                        "options": ["Me 😭", "My partner 😭"]},
+    {"type": "poll",  "text": "Who is the better gift giver?",                                    "options": ["Me 🎁", "My partner 🎁"]},
+    {"type": "poll",  "text": "Who is more likely to get lost?",                                  "options": ["Me 🗺️", "My partner 🗺️"]},
+    {"type": "poll",  "text": "Who hogs the blanket?",                                            "options": ["Me 🛌", "My partner 🛌"]},
+    {"type": "poll",  "text": "Who is messier?",                                                  "options": ["Me 🧹", "My partner 🧹"]},
+    {"type": "poll",  "text": "Who is more likely to stay up too late?",                          "options": ["Me 🦉", "My partner 🦉"]},
+    {"type": "poll",  "text": "Who is more likely to suggest a spontaneous trip?",                "options": ["Me ✈️", "My partner ✈️"]},
+    {"type": "poll",  "text": "Who remembers important dates better?",                            "options": ["Me 📅", "My partner 📅"]},
+    {"type": "poll",  "text": "Who is more stubborn?",                                            "options": ["Me 😤", "My partner 😤"]},
+    {"type": "poll",  "text": "Who apologises first after an argument?",                          "options": ["Me 🙏", "My partner 🙏"]},
+    {"type": "poll",  "text": "Who is more affectionate in public?",                             "options": ["Me 💑", "My partner 💑"]},
+    {"type": "poll",  "text": "Who snacks more?",                                                 "options": ["Me 🍿", "My partner 🍿"]},
+    {"type": "poll",  "text": "Who picks the restaurant?",                                        "options": ["Me 🍽️", "My partner 🍽️"]},
+    {"type": "poll",  "text": "Who is more likely to plan ahead?",                               "options": ["Me 📋", "My partner 📋"]},
+    {"type": "poll",  "text": "Who is more patient?",                                             "options": ["Me 😌", "My partner 😌"]},
+    {"type": "poll",  "text": "Who is the better driver?",                                        "options": ["Me 🚗", "My partner 🚗"]},
+    {"type": "poll",  "text": "Who takes more photos?",                                           "options": ["Me 📸", "My partner 📸"]},
+    {"type": "poll",  "text": "Who is more likely to be running late?",                           "options": ["Me ⏰", "My partner ⏰"]},
+    {"type": "poll",  "text": "Who falls asleep on the sofa more?",                              "options": ["Me 😴", "My partner 😴"]},
+    {"type": "poll",  "text": "Who makes the other laugh more?",                                  "options": ["Me 😂", "My partner 😂"]},
+    {"type": "poll",  "text": "Who is more likely to start a new hobby and abandon it?",          "options": ["Me 🎸", "My partner 🎸"]},
+    {"type": "poll",  "text": "Who worries more?",                                                "options": ["Me 😟", "My partner 😟"]},
+    {"type": "poll",  "text": "Ideal weekend: stay in or go out?",                               "options": ["Stay in 🏠", "Go out 🌍"]},
+    {"type": "poll",  "text": "Do you think soulmates are real?",                                 "options": ["Yes 💫", "Not quite — but close enough 🌱"]},
+    {"type": "poll",  "text": "Coffee or tea as a couple?",                                       "options": ["Coffee ☕", "Tea 🍵"]},
+    {"type": "poll",  "text": "Do you have a favourite season you both share?",                   "options": ["Yes we do 🍂", "We disagree 😅"]},
+    {"type": "poll",  "text": "Pets or no pets in your ideal home?",                              "options": ["Yes to pets 🐾", "No pets 🏡"]},
+    {"type": "poll",  "text": "City life or countryside?",                                        "options": ["City 🏙️", "Countryside 🌿"]},
+    {"type": "poll",  "text": "Do you think you and your partner balance each other out?",        "options": ["Totally ⚖️", "We're more similar than different 🪞"]},
+    {"type": "poll",  "text": "Sweet or savoury when you're snacking together?",                  "options": ["Sweet 🍫", "Savoury 🧀"]},
+    {"type": "poll",  "text": "Do you have a shared TV show you are always rewatching?",          "options": ["Yes always 📺", "We can never agree 😂"]},
+    {"type": "poll",  "text": "Has your partner met your whole family?",                          "options": ["Yes 👨‍👩‍👧", "Not all of them yet"]},
+    {"type": "poll",  "text": "Do you think you two bring out the best in each other?",           "options": ["Absolutely 💪", "We're working on it 🌱"]},
+    {"type": "poll",  "text": "Pool or ocean?",                                                   "options": ["Pool 🏊", "Ocean 🌊"]},
+    {"type": "poll",  "text": "Do you have a shared playlist?",                                   "options": ["Yes 🎶", "No but we should 😅"]},
+    {"type": "poll",  "text": "Would you rather revisit your favourite trip or go somewhere brand new?", "options": ["Revisit 🔁", "Somewhere new 🗺️"]},
+    {"type": "poll",  "text": "Do you both agree on how tidy the home should be?",               "options": ["Pretty much 🧹", "Not at all 😂"]},
+    {"type": "poll",  "text": "Window seat or aisle seat when you fly together?",                 "options": ["Window 🪟", "Aisle 🚶"]},
+    {"type": "poll",  "text": "Has your relationship ever survived a long distance period?",      "options": ["Yes it has 💌", "No we've always been close 🏡"]},
+    {"type": "poll",  "text": "Do you think you have a healthier relationship than most?",        "options": ["Yes honestly 💚", "We have our moments 😅"]},
+    {"type": "poll",  "text": "Hot holiday or cold adventure?",                                   "options": ["Hot ☀️", "Cold ❄️"]},
+    {"type": "poll",  "text": "Have you ever laughed during a serious argument?",                 "options": ["Yes and it helped 😂", "No we keep it serious 😤"]},
+    {"type": "poll",  "text": "Do you think you communicate well as a couple?",                  "options": ["Yes really well 💬", "It's something we work at 🌱"]},
+    {"type": "poll",  "text": "Do you have a go-to comfort food you both love?",                  "options": ["Yes definitely 🍜", "We have different ones 🍕"]},
+    {"type": "poll",  "text": "Have you cried happy tears because of your partner?",              "options": ["Yes 🥹", "Not yet but maybe one day"]},
+    {"type": "poll",  "text": "Would you rather have a big wedding or a small intimate one?",     "options": ["Big celebration 🎊", "Small and intimate 🕯️"]},
 ]
 
 # ══════════════════════════════════════════════════════════
@@ -553,6 +707,136 @@ async def status_cmd(interaction: discord.Interaction):
         ephemeral=True,
     )
 
+    # ══════════════════════════════════════════════════════════
+#  SCHEDULED NOTES
+#  /writenote  — write a note to your partner for later
+#  /mynotes    — see your pending outgoing notes
+#  check_notes — background task that delivers on time
+# ══════════════════════════════════════════════════════════
+
+NOTES_FILE = "scheduled_notes.json"
+
+def load_notes() -> list:        return _load(NOTES_FILE, [])
+def save_notes(n: list) -> None: _save(NOTES_FILE, n)
+
+
+@tree.command(name="writenote", description="Write a secret note to your partner, delivered at a time you choose 💌")
+@app_commands.describe(
+    message  = "Your note to them",
+    date     = "Delivery date in YYYY-MM-DD format",
+    time     = "Delivery time in HH:MM (24hr UTC)",
+    to       = "Who to send it to — defaults to your linked partner",
+)
+async def writenote_cmd(interaction: discord.Interaction,
+                        message: str,
+                        date: str,
+                        time: str,
+                        to: discord.Member = None):
+
+    # resolve recipient
+    recipient_id = to.id if to else get_partner(interaction.user.id)
+    if not recipient_id:
+        await interaction.response.send_message(
+            "⚠️ No recipient found. Either use `/setpartner` first or specify someone with the `to` option.",
+            ephemeral=True)
+        return
+
+    try:
+        deliver_at = datetime.datetime.strptime(f"{date} {time}", "%Y-%m-%d %H:%M").replace(
+            tzinfo=datetime.timezone.utc)
+    except ValueError:
+        await interaction.response.send_message(
+            "⚠️ Bad format. Use `YYYY-MM-DD` for date and `HH:MM` for time.", ephemeral=True)
+        return
+
+    if deliver_at <= datetime.datetime.now(datetime.timezone.utc):
+        await interaction.response.send_message(
+            "⚠️ That time is already in the past! Pick a future date and time.", ephemeral=True)
+        return
+
+    notes = load_notes()
+    notes.append({
+        "from_id":      interaction.user.id,
+        "from_name":    interaction.user.display_name,
+        "to_id":        recipient_id,
+        "guild_id":     interaction.guild_id,
+        "channel_id":   interaction.channel_id,
+        "message":      message,
+        "deliver_at":   deliver_at.isoformat(),
+        "delivered":    False,
+    })
+    save_notes(notes)
+
+    # confirmation (only the sender sees this)
+    e = discord.Embed(
+        title="💌  Note Scheduled!",
+        description=f"*\"{message}\"*",
+        colour=PINK,
+    )
+    e.add_field(name="📬 To",         value=f"<@{recipient_id}>",                       inline=True)
+    e.add_field(name="🕐 Delivers at", value=f"<t:{int(deliver_at.timestamp())}:F>",    inline=True)
+    e.add_field(name="⏳ That's in",   value=f"<t:{int(deliver_at.timestamp())}:R>",    inline=False)
+    e.set_footer(text="They won't know until it arrives 🤫")
+    await interaction.response.send_message(embed=e, ephemeral=True)
+
+
+@tree.command(name="mynotes", description="See your pending scheduled notes 📬")
+async def mynotes_cmd(interaction: discord.Interaction):
+    notes = load_notes()
+    pending = [n for n in notes
+               if n["from_id"] == interaction.user.id and not n["delivered"]]
+
+    if not pending:
+        await interaction.response.send_message(
+            "You have no pending notes. Use `/writenote` to schedule one! 💌", ephemeral=True)
+        return
+
+    e = discord.Embed(title="💌  Your Pending Notes", colour=PINK)
+    for i, n in enumerate(pending, 1):
+        dt = datetime.datetime.fromisoformat(n["deliver_at"])
+        preview = n["message"][:60] + ("…" if len(n["message"]) > 60 else "")
+        e.add_field(
+            name=f"Note {i} → <@{n['to_id']}>",
+            value=f"*\"{preview}\"*\n🕐 <t:{int(dt.timestamp())}:F> (<t:{int(dt.timestamp())}:R>)",
+            inline=False,
+        )
+    e.set_footer(text="Only you can see this")
+    await interaction.response.send_message(embed=e, ephemeral=True)
+
+
+@tasks.loop(minutes=1)
+async def check_notes():
+    notes = load_notes()
+    now   = datetime.datetime.now(datetime.timezone.utc)
+    dirty = False
+
+    for note in notes:
+        if note["delivered"]:
+            continue
+        deliver_at = datetime.datetime.fromisoformat(note["deliver_at"])
+        if now < deliver_at:
+            continue
+
+        # time to deliver
+        try:
+            channel = bot.get_channel(note["channel_id"]) or bot.get_channel(QUESTION_CHANNEL_ID)
+
+            e = discord.Embed(
+                title="💌  You have a note!",
+                description=f"*\"{note['message']}\"*",
+                colour=PINK,
+            )
+            e.set_author(name=f"From {note['from_name']}")
+            e.set_footer(text=f"Written for this moment — delivered just for you 🕊️")
+            await channel.send(content=f"<@{note['to_id']}>", embed=e)
+            note["delivered"] = True
+            dirty = True
+        except Exception as ex:
+            print(f"[Notes] Failed to deliver note: {ex}")
+
+    if dirty:
+        save_notes(notes)
+
 # ══════════════════════════════════════════════════════════
 #  ON READY
 # ══════════════════════════════════════════════════════════
@@ -565,6 +849,7 @@ async def on_ready():
     except Exception as e:
         print(f"[ERROR] Sync failed: {e}")
     daily_question.start()
+    check_notes.start()
     print(f"✅  Daily question at {DAILY_HOUR:02d}:{DAILY_MINUTE:02d} UTC")
 
 # ══════════════════════════════════════════════════════════
