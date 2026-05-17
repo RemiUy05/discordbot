@@ -843,14 +843,27 @@ async def check_notes():
 @bot.event
 async def on_ready():
     print(f"✅  {bot.user} online (ID: {bot.user.id})")
+    
+    # 1. Sync slash commands safely
     try:
         synced = await tree.sync()
         print(f"✅  {len(synced)} slash command(s) synced")
     except Exception as e:
         print(f"[ERROR] Sync failed: {e}")
-    daily_question.start()
-    check_notes.start()
-    print(f"✅  Daily question at {DAILY_HOUR:02d}:{DAILY_MINUTE:02d} UTC")
+    
+    # 2. Start daily_question safely by checking if it's already running
+    if not daily_question.is_running():
+        daily_question.start()
+        print(f"✅  Daily question loop started (Scheduled for {DAILY_HOUR:02d}:{DAILY_MINUTE:02d} UTC)")
+    else:
+        print("ℹ️  Daily question loop already running.")
+
+    # 3. Start check_notes safely
+    if not check_notes.is_running():
+        check_notes.start()
+        print("✅  Check notes loop started")
+    else:
+        print("ℹ️  Check notes loop already running.")
 
 # ══════════════════════════════════════════════════════════
 #  RUN
